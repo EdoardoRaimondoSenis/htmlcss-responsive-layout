@@ -73,6 +73,7 @@ header {
     .container {
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
         margin: 3% 10% auto;
         margin-bottom: 5%;
     }
@@ -317,6 +318,67 @@ header {
         margin: 20px 0;
         width: 50px;
         font-weight: bold;
+    }
+
+    .aboutussx {
+        width: calc(75% - 40px);
+        padding: 20px;
+    }
+
+    .aboutussx h2 {
+        font-size: 50px;
+        color: #9792e4;
+    }
+
+    .aboutussx p {
+        color: #9c9c9c;
+        line-height: 30px;
+    }
+
+    .aboutusdx {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: calc(25% - 40px);
+        padding: 20px;
+
+    }
+
+    .aboutusphoto {
+        position: relative;
+    }
+
+    .virgoletteabsolute {
+        z-index: 4;
+        filter: invert(61%) sepia(16%) saturate(1288%) hue-rotate(204deg) brightness(99%) contrast(81%);
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .paboutusphoto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paboutusphoto span {
+        color: #9792e4;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 35px;
+    }
+
+    .linkedin {
+        background-color: #9792e4;
+        border-radius: 30px;
+        padding: 5px 10px;
+        width: 170px;
+        text-align: center;
+    }
+
+    .linkedin img {
+        width: 13px;
     }
 
 
