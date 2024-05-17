@@ -12,16 +12,22 @@ a {
 }
 
 header {
+    position: fixed;
+    top: 0;
     background-color: #0084fd;
     width: 100%;
     height: 80px;
+    z-index: 98;
 }
 
 .head {
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 10% auto;
+    width: 80%;
+    z-index: 99;
 }
 
 .hambmenu {
@@ -69,6 +75,10 @@ header {
         flex-wrap: wrap;
         margin: 3% 10% auto;
         margin-bottom: 5%;
+    }
+
+    .primasec {
+        margin-top: 7%;
     }
 
     /* cella grande prima section */
@@ -136,7 +146,7 @@ header {
         border-radius: 30px;
         margin: 10px;
         padding: 20px;
-        width: calc(33.3% - 60px);
+        width: calc(100% / 3 - 60px);
         height: 350px;
     }
 
@@ -189,15 +199,6 @@ header {
         padding-bottom: 20px;
     }
 
-    .icons {
-        width: 35px;
-        cursor: pointer;
-    }
-
-    .imgpurple {
-        width: 300px;
-    }
-
     .cardpurpledx {
         display: flex;
         flex-direction: column;
@@ -210,6 +211,112 @@ header {
         /* debug */
         width: calc(40% - 30px);
         height: 500px;
+    }
+
+    .imgpurple {
+        width: 300px;
+    }
+
+    .icons {
+        width: 35px;
+        cursor: pointer;
+    }
+
+    .center {
+        justify-content: center;
+    }
+
+    .expart {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .expart h2 {
+        font-size: 35px;
+        color: #9792e4;
+    }
+
+    .cardexpart {
+        display: flex;
+        align-items: center;
+        background-color: #9792e4;
+        border-radius: 30px;
+        padding: 30px;
+        width: calc(100% - 60px);
+        height: 170px;
+        color: white;
+        margin: 20px 0;
+    }
+
+    .imgcardexpart {
+        width: 250px;
+        clip-path: circle(38%);
+    }
+
+    .virgolettemini {
+        width: 20px;
+    }
+
+    .violetto {
+        background-color: #9792e4;
+        margin: 3% 0;
+        padding: 3% 10%;
+    }
+
+    .benefits {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .benefits h2 {
+        font-size: 35px;
+        color: white;
+    }
+
+    .containercardwhite {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .cardwhite {
+        display: flex;
+        flex-direction: column;
+        width: calc(100% / 3 - 60px);
+        padding: 20px;
+        background-color: white;
+        border-radius: 30px;
+        margin: 10px;
+    }
+
+    .numbercardwhite {
+        font-size: 70px;
+        color: #9792e4;
+        margin: 0;
+    }
+
+    .titlecardwhite {
+        color: #9792e4;
+        font-size: 30px;
+    }
+
+    .cardwhite p {
+        color: #9c9c9c;
+        line-height: 25px;
+    }
+
+
+    .cardwhite a {
+        background-color: #9792e4;
+        border-radius: 30px;
+        padding: 10px 50px;
+        margin: 20px 0;
+        width: 50px;
+        font-weight: bold;
     }
 
 
@@ -242,6 +349,10 @@ header {
         flex-wrap: wrap;
         margin: 3% 5% auto;
         margin-bottom: 5%;
+    }
+
+    .primasec {
+        margin-top: 14%;
     }
 
     /* cella grande prima section */
