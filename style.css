@@ -381,12 +381,497 @@ header {
         width: 13px;
     }
 
+    .violettolast {
+        background-color: #9792e4;
+        margin: 3% 0 0 0;
+        padding: 3% 10%;
+        
+    }
+
+    .lastsection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        width: 100%;
+        padding: 0 25%;
+    }
+
+    .lastsection h3 {
+       font-size: 40px;
+       font-weight: bold;
+       margin: 10px 0;
+    }
+
+    .lastsection h2 {
+        color: #fdc15f;
+        font-size: 80px;
+        margin: 10px 0;
+    }
+
+    .lastsection span {
+        
+        text-align: center;
+    }
+
+    .lastsection span a {
+        text-decoration: underline;
+    }
+
+    #getstarted {
+        background-color: white;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 50px;
+        color: #9792e4;
+        padding: 30px 80px;
+        margin: 30px 0;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        background-color: rgb(55, 55, 55);
+        padding: 20px 30%;
+    }
+
+    footer span {
+        padding: 50px;
+    }
+
+    footer span a {
+        color: revert;
+        text-decoration: underline;
+    }
 
 }
 
 
 /* visione tablet */
 @media screen and (max-width: 768px) and (min-width: 480px) {
+    
+    .head {
+        margin: 0 5% auto;
+    }
+
+    .hambmenu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 80px;
+    }
+        
+    .hambmenu a img {
+        width: 30px;
+        cursor: pointer;
+    }
+
+    /* Contanier prima sezione */
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 3% 5% auto;
+        margin-bottom: 5%;
+    }
+
+    .primasec {
+        margin-top: 14%;
+    }
+
+    /* cella grande prima section */
+    .demo {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #b5ddff;
+        border-radius: 30px;
+        margin: 10px;
+        padding: 30px;
+        /* debug */
+        width: calc(66.6% - 80px);
+        height: 640px;
+    }
+
+    /* titolo get a demo application */
+    .demo h3 {
+        color: #0084fd;
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+
+    /* paragrafo get a demo application */
+    .demo p {
+        color: rgb(98, 98, 98);
+        margin-top: 0px;
+        padding: 40px 0;
+        font-size: 17px;
+        font-weight: bold;
+        line-height: 27px;
+    }
+
+    /* immagine get a demo application */
+    .imgdemo {
+        position: absolute;
+        bottom: 0;
+        width: 300px;
+    }
+
+    /* logo apple tasto app store */
+    .mela {
+        width: 13px;
+    }
+
+    /* pulsante app store */
+    .demobutton {
+        background-color: #0084fd;
+        border-radius: 30px;
+        padding: 10px 40px;
+    }
+
+    /* cella piccola a sinistra di demo */
+    .cellaclonsx {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: #b5ddff;
+        border-radius: 30px;
+        margin: 10px;
+        padding: 20px;
+        width: calc(33.3% - 60px);
+        height: 660px;
+    }
+    
+    /* cella piccola prima section */
+    .cellaclon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: #b5ddff;
+        border-radius: 30px;
+        margin: 10px;
+        padding: 20px;
+        width: calc(33.3% - 60px);
+        height: 550px;
+    }
+
+    /* immagine cella clone */
+    .cellaclon img {
+        width: 90px;
+    }
+
+    /* titolo cella clone */
+    .cellaclon h3 {
+        color: #0084fd;
+        font-size: 24px;
+    }
+
+    /* paragrafo cella a sinistra di get a demo application */
+    .cellaclonsx p {
+        line-height: 27px;
+        color: rgb(98, 98, 98);
+        font-weight: bold;
+    }
+
+    /* paragrafo celle sotto */
+    .cellaclon p {
+        font-size: 17px;
+        color: rgb(98, 98, 98);
+        font-weight: bold;
+        line-height: 27px;
+    }
+
+    /* background purple celle */
+    .backpurple {
+        background-color: #9792e4;
+    }
+
+    .purple {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 2% 10%;
+    }
+
+    .cardpurplesx {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 30px;
+        color: white;
+        /* debug */
+        width: calc(40% - 30px);
+        height: 700px;
+    }
+
+    .cardpurplesx h2 {
+        padding-bottom: 20px;
+    }
+
+    .icons {
+        width: 35px;
+        cursor: pointer;
+    }
+
+    .imgpurple {
+        width: 300px;
+    }
+
+    .cardpurpledx {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+        padding: 30px;
+        background-color: white;
+        border-radius: 30px;
+        text-align: center;
+        /* debug */
+        width: calc(40% - 30px);
+        height: 500px;
+    }
+
+    .imgpurple {
+        width: 300px;
+    }
+
+    .icons {
+        width: 35px;
+        cursor: pointer;
+    }
+
+    .center {
+        justify-content: center;
+    }
+
+    .expart {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .expart h2 {
+        font-size: 35px;
+        color: #9792e4;
+    }
+
+    .cardexpart {
+        display: flex;
+        align-items: center;
+        background-color: #9792e4;
+        border-radius: 30px;
+        padding: 30px;
+        width: calc(100% - 60px);
+        height: 170px;
+        color: white;
+        margin: 20px 0;
+    }
+
+    .imgcardexpart {
+        width: 250px;
+        clip-path: circle(38%);
+    }
+
+    .virgolettemini {
+        width: 20px;
+    }
+
+    .violetto {
+        background-color: #9792e4;
+        margin: 3% 0;
+        padding: 3% 10%;
+    }
+
+    .benefits {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .benefits h2 {
+        font-size: 35px;
+        color: white;
+    }
+
+    .containercardwhite {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .cardwhite {
+        display: flex;
+        flex-direction: column;
+        width: calc(100% / 3 - 60px);
+        padding: 20px;
+        background-color: white;
+        border-radius: 30px;
+        margin: 10px;
+    }
+
+    .numbercardwhite {
+        font-size: 70px;
+        color: #9792e4;
+        margin: 0;
+    }
+
+    .titlecardwhite {
+        color: #9792e4;
+        font-size: 30px;
+    }
+
+    .cardwhite p {
+        color: #9c9c9c;
+        line-height: 25px;
+    }
+
+
+    .cardwhite a {
+        background-color: #9792e4;
+        border-radius: 30px;
+        padding: 10px 50px;
+        margin: 20px 0;
+        width: 50px;
+        font-weight: bold;
+    }
+
+    .aboutussx {
+        width: calc(75% - 40px);
+        padding: 20px;
+    }
+
+    .aboutussx h2 {
+        font-size: 50px;
+        color: #9792e4;
+    }
+
+    .aboutussx p {
+        color: #9c9c9c;
+        line-height: 30px;
+    }
+
+    .aboutusdx {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: calc(25% - 40px);
+        padding: 20px;
+
+    }
+
+    .aboutusphoto {
+        position: relative;
+    }
+
+    .virgoletteabsolute {
+        z-index: 4;
+        filter: invert(61%) sepia(16%) saturate(1288%) hue-rotate(204deg) brightness(99%) contrast(81%);
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .paboutusphoto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paboutusphoto span {
+        color: #9792e4;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 35px;
+    }
+
+    .linkedin {
+        background-color: #9792e4;
+        border-radius: 30px;
+        padding: 5px 10px;
+        width: 170px;
+        text-align: center;
+    }
+
+    .linkedin img {
+        width: 13px;
+    }
+
+    .violettolast {
+        background-color: #9792e4;
+        margin: 3% 0 0 0;
+        padding: 3% 10%;
+        
+    }
+
+    .lastsection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        width: 100%;
+        padding: 0 25%;
+    }
+
+    .lastsection h3 {
+       font-size: 40px;
+       font-weight: bold;
+       margin: 10px 0;
+    }
+
+    .lastsection h2 {
+        color: #fdc15f;
+        font-size: 80px;
+        margin: 10px 0;
+    }
+
+    .lastsection span {
+        
+        text-align: center;
+    }
+
+    .lastsection span a {
+        text-decoration: underline;
+    }
+
+    #getstarted {
+        background-color: white;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 50px;
+        color: #9792e4;
+        padding: 30px 80px;
+        margin: 30px 0;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        background-color: rgb(55, 55, 55);
+        padding: 20px 30%;
+    }
+
+    footer span {
+        padding: 50px;
+    }
+
+    footer span a {
+        color: revert;
+        text-decoration: underline;
+    }
+
+}
+    
+
+/* visione cellulare */
+@media screen and (max-width: 480px) {
     
     .head {
         margin: 0 5% auto;
@@ -561,27 +1046,236 @@ header {
         height: 500px;
     }
 
-}
-    
-
-/* visione cellulare */
-@media screen and (max-width: 480px) {
-    
-    .head {
-        margin: 0 5% auto;
+    .imgpurple {
+        width: 300px;
     }
-    
-    .hambmenu {
+
+    .icons {
+        width: 35px;
+        cursor: pointer;
+    }
+
+    .center {
+        justify-content: center;
+    }
+
+    .expart {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .expart h2 {
+        font-size: 35px;
+        color: #9792e4;
+    }
+
+    .cardexpart {
+        display: flex;
+        align-items: center;
+        background-color: #9792e4;
+        border-radius: 30px;
+        padding: 30px;
+        width: calc(100% - 60px);
+        height: 170px;
+        color: white;
+        margin: 20px 0;
+    }
+
+    .imgcardexpart {
+        width: 250px;
+        clip-path: circle(38%);
+    }
+
+    .virgolettemini {
+        width: 20px;
+    }
+
+    .violetto {
+        background-color: #9792e4;
+        margin: 3% 0;
+        padding: 3% 10%;
+    }
+
+    .benefits {
+        display: flex;
+        flex-direction: column;
         align-items: center;
         width: 100%;
-        height: 80px;
     }
 
-    .hambmenu a img {
-        width: 30px;
-        cursor: pointer;
+    .benefits h2 {
+        font-size: 35px;
+        color: white;
+    }
+
+    .containercardwhite {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .cardwhite {
+        display: flex;
+        flex-direction: column;
+        width: calc(100% / 3 - 60px);
+        padding: 20px;
+        background-color: white;
+        border-radius: 30px;
+        margin: 10px;
+    }
+
+    .numbercardwhite {
+        font-size: 70px;
+        color: #9792e4;
+        margin: 0;
+    }
+
+    .titlecardwhite {
+        color: #9792e4;
+        font-size: 30px;
+    }
+
+    .cardwhite p {
+        color: #9c9c9c;
+        line-height: 25px;
+    }
+
+
+    .cardwhite a {
+        background-color: #9792e4;
+        border-radius: 30px;
+        padding: 10px 50px;
+        margin: 20px 0;
+        width: 50px;
+        font-weight: bold;
+    }
+
+    .aboutussx {
+        width: calc(75% - 40px);
+        padding: 20px;
+    }
+
+    .aboutussx h2 {
+        font-size: 50px;
+        color: #9792e4;
+    }
+
+    .aboutussx p {
+        color: #9c9c9c;
+        line-height: 30px;
+    }
+
+    .aboutusdx {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: calc(25% - 40px);
+        padding: 20px;
+
+    }
+
+    .aboutusphoto {
+        position: relative;
+    }
+
+    .virgoletteabsolute {
+        z-index: 4;
+        filter: invert(61%) sepia(16%) saturate(1288%) hue-rotate(204deg) brightness(99%) contrast(81%);
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .paboutusphoto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paboutusphoto span {
+        color: #9792e4;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 35px;
+    }
+
+    .linkedin {
+        background-color: #9792e4;
+        border-radius: 30px;
+        padding: 5px 10px;
+        width: 170px;
+        text-align: center;
+    }
+
+    .linkedin img {
+        width: 13px;
+    }
+
+    .violettolast {
+        background-color: #9792e4;
+        margin: 3% 0 0 0;
+        padding: 3% 10%;
+        
+    }
+
+    .lastsection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        width: 100%;
+        padding: 0 25%;
+    }
+
+    .lastsection h3 {
+       font-size: 40px;
+       font-weight: bold;
+       margin: 10px 0;
+    }
+
+    .lastsection h2 {
+        color: #fdc15f;
+        font-size: 80px;
+        margin: 10px 0;
+    }
+
+    .lastsection span {
+        
+        text-align: center;
+    }
+
+    .lastsection span a {
+        text-decoration: underline;
+    }
+
+    #getstarted {
+        background-color: white;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 50px;
+        color: #9792e4;
+        padding: 30px 80px;
+        margin: 30px 0;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        background-color: rgb(55, 55, 55);
+        padding: 20px 30%;
+    }
+
+    footer span {
+        padding: 50px;
+    }
+
+    footer span a {
+        color: revert;
+        text-decoration: underline;
     }
 
 }
