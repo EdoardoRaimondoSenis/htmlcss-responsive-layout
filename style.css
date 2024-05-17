@@ -521,7 +521,7 @@ header {
     .container {
         display: flex;
         flex-wrap: wrap;
-        margin: 3% 5% auto;
+        margin: 3% 2% auto;
         margin-bottom: 5%;
     }
 
@@ -644,7 +644,7 @@ header {
         display: flex;
         justify-content: center;
         align-items: flex-end;
-        padding: 2% 10%;
+        padding: 2% 2%;
     }
 
     /* card seconda sezione strategic planning */
@@ -655,12 +655,14 @@ header {
         margin: 30px;
         color: white;
         /* debug */
-        width: calc(40% - 30px);
+        width: calc(100% - 30px);
         height: 700px;
     }
 
     /* titolo card strategic planning */
     .cardpurplesx h2 {
+        font-size: 50px;
+        margin: 0;
         padding-bottom: 20px;
     }
 
@@ -672,7 +674,7 @@ header {
 
     /* immagini seconda sezione */
     .imgpurple {
-        width: 300px;
+        width: 500px;
     }
 
     /* card purple destra */
@@ -686,8 +688,8 @@ header {
         border-radius: 30px;
         text-align: center;
         /* debug */
-        width: calc(40% - 30px);
-        height: 500px;
+        width: calc(100% - 30px);
+        height: 670px;
     }
 
     /* container expert partners */
@@ -695,13 +697,17 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
 
     /* titolo container "We are committed experts" */
     .expart h2 {
         font-size: 35px;
         color: #9792e4;
+    }
+
+    /* span testo sopra le card al centro */
+    .testoex {
+        text-align: center;
     }
 
     /* card purple expert partners */
@@ -732,7 +738,7 @@ header {
     .violetto {
         background-color: #9792e4;
         margin: 3% 0;
-        padding: 3% 10%;
+        padding: 3% 2%;
     }
 
     /* container sezione "benefits of working with us" */
@@ -760,7 +766,7 @@ header {
     .cardwhite {
         display: flex;
         flex-direction: column;
-        width: calc(100% / 3 - 60px);
+        width: calc(100% / 2 - 60px);
         padding: 20px;
         background-color: white;
         border-radius: 30px;
@@ -798,8 +804,9 @@ header {
 
     /* container parte sinistra about us */
     .aboutussx {
-        width: calc(75% - 40px);
+        width: calc(65% - 60px);
         padding: 20px;
+        padding-right: 20px;
     }
 
     /* titolo parte sinistra about us */
@@ -819,7 +826,7 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: calc(25% - 40px);
+        width: calc(35% - 40px);
         padding: 20px;
 
     }
@@ -882,7 +889,7 @@ header {
         align-items: center;
         color: white;
         width: 100%;
-        padding: 0 25%;
+        padding: 0 10%;
     }
 
     /* titolino ultima sezione */
@@ -925,9 +932,10 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
         color: white;
         background-color: rgb(55, 55, 55);
-        padding: 20px 30%;
+        padding: 20px 10%;
     }
 
     /* primo mini paragrafo */
@@ -972,7 +980,7 @@ header {
     .container {
         display: flex;
         flex-wrap: wrap;
-        margin: 3% 5% auto;
+        margin: 2% 5% auto;
         margin-bottom: 5%;
     }
 
